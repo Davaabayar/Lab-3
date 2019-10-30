@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lab 3 - CS427</title>
+  
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            line-height: 1;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 50% 25% 25%;
+            grid-template-rows: 200px 200px;
+            grid-template-areas: 'item-a item-b item-c''item-a item-d item-e';
+        }
+
+        .item {
+            border: 1px solid #ccc;
+        }
+
+        .item-a {
+            grid-area: item-a;
+        }
+
+        .item-b {
+            grid-area: item-b;
+        }
+
+        .item-c {
+            grid-area: item-c;
+        }
+
+        .item-d {
+            grid-area: item-d;
+        }
+
+        .item-e {
+            grid-area: item-e;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="item item-a">item-a</div>
+        <div class="item item-b">item-b</div>
+        <div class="item item-c">item-c</div>
+        <div class="item item-d">item-d</div>
+        <div class="item item-e">item-e</div>
+    </section>
+</body>
+
+</html>

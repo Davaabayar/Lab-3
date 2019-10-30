@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f6f6f6;
+}
+
+.container {
+    min-height: 100vh;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(170px, auto);
+}
+
+header {
+    grid-row: 1/5;
+}
+
+.wrapper>div {
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+}
+
+.wrapper .fullrow {
+    grid-column: 1/3;
+    grid-row: auto;
+}
+
+.wrapper .big {
+    grid-row: 1/3;
+}
+
+.wrapper>div .desc {
+    position: absolute;
+    bottom: 0;
+    padding:15px;
+    background-image: linear-gradient(transparent,rgba(0,0,0,0.8));
+}
+
+.wrapper>div .desc p {
+    font-size: 18px;
+}
+
+.wrapper>div .desc .tag {
+    text-transform: uppercase;           
+    padding-left: 8px;
+}
+.wrapper>div .desc .tag.red{
+    border-left: 3px solid #F44336;
+}
+.wrapper>div .desc .tag.blue{
+    border-left: 3px solid #47a1d8;
+}
+.wrapper>div .desc .tag.green{
+    border-left: 3px solid #589e50;
+}
+.wrapper .time {
+    grid-column: 3/4;
+
+}
+.wrapper .small h2{
+    font-size:16px;
+}
+.wrapper>div.small .desc p{
+    font-size: 14px;
+}
+header {
+    color: rgb(74, 74, 74);
+}
+
+.f22 {
+    font-size: 22px;
+}
+
+.right {
+    text-align: right;
+}
+
+.autorow {
+    grid-template-rows: auto;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 0;
+}
+
+.gray {
+    color: rgb(140, 140, 140);
+}
