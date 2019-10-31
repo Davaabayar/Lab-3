@@ -10,18 +10,15 @@ body {
     width: 1280px;
     margin: 0 auto;
 }
-
 .wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     grid-gap: 1em;
     grid-auto-rows: minmax(170px, auto);
 }
-
-header {
-    grid-row: 1/5;
+.wrapper .big {
+    grid-row: 1/3;
 }
-
 .wrapper>div {
     background-color: #eee;
     background-position: center;
@@ -30,27 +27,15 @@ header {
     color: #fff;
     position: relative;
 }
-
-.wrapper .fullrow {
-    grid-column: 1/3;
-    grid-row: auto;
-}
-
-.wrapper .big {
-    grid-row: 1/3;
-}
-
 .wrapper>div .desc {
     position: absolute;
     bottom: 0;
     background-image: linear-gradient(transparent,rgba(0,0,0,0.8));
     width: 100%;
 }
-
 .wrapper>div .desc p {
     font-size: 18px;
 }
-
 .wrapper>div .desc .tag {
     text-transform: uppercase;           
     padding-left: 8px;
@@ -77,25 +62,20 @@ header {
 header {
     color: rgb(74, 74, 74);
 }
-
 .f22 {
     font-size: 22px;
 }
-
 .right {
     text-align: right;
 }
-
 .autorow {
     grid-template-rows: auto;
 }
-
 .wrapper2 {
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 20px 0;
 }
-
 .gray {
     color: rgb(140, 140, 140);
 }

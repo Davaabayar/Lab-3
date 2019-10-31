@@ -34,10 +34,6 @@ body {
     grid-gap: 10px;
 }
 
-#inner-grid>div {         
-  
-}
-
 .coverimg {
     position: relative;
     width: 100%;
