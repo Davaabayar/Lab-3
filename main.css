@@ -85,6 +85,10 @@ header {
 .pad10{
     padding:10px;
 }
+.validator{
+    margin-top: 50px;
+    text-align: center;
+}
 @media only screen and (max-width: 1280px) {
     .container {
       width:100%;
