@@ -1,5 +1,5 @@
 Solutions
-
+https://peaceful-franklin-f772dc.netlify.com/
 *** SOLUTION 1 ***
 Sol1.html - Display's grid layout using grid-template-areas & grid-area
 -------------
